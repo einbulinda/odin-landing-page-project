@@ -1,0 +1,160 @@
+* {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* START: Odin CSS Rules */
+header,
+footer {
+    background-color: #1F2937;
+    padding: 1rem;
+}
+
+.hero-message h1 {
+    font-size: 48px;
+    font-style: bolder;
+    color: #F9FAF8;
+}
+
+a,
+.hero-message>p,
+footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 5px 16px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    border: none;
+    margin: 2px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.testimonials {
+    background-color: #E5E7EB;
+    height: 20vh;
+    padding: 2rem 12rem;
+}
+
+.testimonials > p {
+    font-weight: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: justify; 
+    
+}
+
+/* END: Odin CSS Rules */
+
+/* START: Navigation Styling */
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.header-logo{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin: 3px 16px;
+}
+
+/* END: navigation Styling */
+/* START: Hero Section */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.hero-message{
+    width: 50vw;
+}
+
+.hero-image img{
+    object-fit: contain;
+    height: 250px;
+    width: auto;
+}
+
+/* START: Information Section */
+.info-section{
+    text-align: center;
+}
+
+.info-section h2{
+    margin: 8px;
+}
+.info-container{
+    height: 30vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    margin: 8px auto;
+    gap: 8px;
+}
+
+.product-info{
+    height:280px;
+    width: 280px;
+    text-align: center;
+    padding: 2px 5px;
+}
+.img-container img{
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+.product-info p{
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+/* START: testimonials */
+
+.testimonials span{
+    float: right;
+    margin-right: 2.4rem;
+    margin-top: 1.6rem;
+    font-weight: bold;
+}
+
+/* START: Call TO Action */
+.cta{
+    width: 80vw;
+    display: flex;
+    background-color: #3882F6;
+    margin: 4rem auto;
+    border-radius: 8px;
+    padding: 2rem;
+    color: #E5E7EB;
+    justify-content: space-around;
+    align-items: center;
+}
+.cta button{
+    border: 1px solid #E5E7EB;
+}
+
+footer p{
+    text-align: center;
+}
